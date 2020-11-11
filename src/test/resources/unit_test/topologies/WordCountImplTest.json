@@ -1,0 +1,64 @@
+{
+  "run": {
+    "inputLogs": [
+      {
+        "key": "key",
+        "value": "all streams lead to kafka"
+      },
+      {
+        "key": "key",
+        "value": "hello kafka streams"
+      },
+      {
+        "key": "key",
+        "value": "join kafka summit"
+      }
+    ],
+    "outputLogs": [
+      {
+        "key": "all",
+        "value": 1
+      },
+      {
+        "key": "streams",
+        "value": 1
+      },
+      {
+        "key": "lead",
+        "value": 1
+      },
+      {
+        "key": "to",
+        "value": 1
+      },
+      {
+        "key": "kafka",
+        "value": 1
+      },
+      {
+        "key": "hello",
+        "value": 1
+      },
+      {
+        "key": "kafka",
+        "value": 2
+      },
+      {
+        "key": "streams",
+        "value": 2
+      },
+      {
+        "key": "join",
+        "value": 1
+      },
+      {
+        "key": "kafka",
+        "value": 3
+      },
+      {
+        "key": "summit",
+        "value": 1
+      }
+    ]
+  }
+}
